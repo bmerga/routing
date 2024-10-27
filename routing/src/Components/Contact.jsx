@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router'
 function Contact() {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/profile')
+        navigate('/profile?name=Bekele&age=38')
     }
     const handleReturn =() => {
         navigate('/')
